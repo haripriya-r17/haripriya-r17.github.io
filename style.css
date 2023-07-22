@@ -1,0 +1,50 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 3.5rem;
+font-family:monospace;
+color:black;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: grey;
+
+}
+.bgimage2 {   
+height:60vh; 
+    position:relative;
+background-size:cover;
+
+color:black;}
+.text2 {
+    padding-top:100px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+opacity:0.8;
+}
+.bgimage3 {   
+ background: url('https://document-export.canva.com/Bn7v0/DAFo-tBn7v0/1/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20230717%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230717T233240Z&X-Amz-Expires=44381&X-Amz-Signature=c4f476d74224aef68a29c8f47a1e4e92e46be96dc4ca821c3271b434df17c7e1&X-Amz-SignedHeaders=host&response-expires=Tue%2C%2018%20Jul%202023%2011%3A52%3A21%20GMT');
+    position:relative;
+
+background-size:cover;
+}
